@@ -195,6 +195,10 @@ function check(){
     }
     if(good == false){
         flashColor();
+        setTimeout(one, 100);
+        setTimeout(two, 200);
+        setTimeout(three, 300);
+        setTimeout(four, 400);
         turnCounter.innerHTML = "NO!";
         setTimeout(()=> {
             turnCounter.innerHTML = turn;
